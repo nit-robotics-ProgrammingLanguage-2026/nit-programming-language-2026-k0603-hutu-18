@@ -3,10 +3,10 @@
 int main(void)
 {
     int n;
-    int i;
-    int sum = 0;
+    long long sum = 0;
+    long long i;
     scanf("%d", &n);
-    if (n <= 0)
+    if (n < 0)
     {
         printf("NG\n");
         return 0;
@@ -15,6 +15,6 @@ int main(void)
     {
         sum += i;
     }
-    printf("%d", sum);
+    printf("%lld\n", sum);
     return 0;
 }
