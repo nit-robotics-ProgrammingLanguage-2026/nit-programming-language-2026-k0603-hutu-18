@@ -8,10 +8,10 @@ int main(void)
     scanf("%d", &n);
     if (n <= 0)
     {
-        printf("NG");
+        printf("NG\n");
         return 0;
     }
-    for (i = 1; i < n; i++)
+    for (long long i = 1; i <= n; i++)
     {
         sum += i;
     }
